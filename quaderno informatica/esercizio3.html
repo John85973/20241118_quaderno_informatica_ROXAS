@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>SPIEGAZIONE ESERCIZIO 3:</h2>
+<p>L'esercizio permette all'utente di inserire un nome utente e una password in un form. Quando si</p>
+<p>clicca su "Accedi", i dati vengono inviati a un file PHP. Il PHP controlla prima se i dati sono stati inviati</p>
+<p>tramite il metodo POST, poi verifica se il nome utente e "Mario" e la password e "123". Se le informazioni sono</p>
+<p>corrette, compare un messaggio di benvenuto, altrimenti viene mostrato un avviso che le credenziali</p>
+<p>non sono giuste. Alla fine, c'e un pulsante per tornare alla pagina precedente.</p>
+
+<hr>
+
+    <h3>REGISTRAZIONE</h3>
+
+    <form  action="php3.php" method="POST">
+        <label for="nomeutente">Nome utente:</label><br>
+        <input type="text" id="nomeutente" name="nomeutente"><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" name="submit" value="Accedi">
+    </form>
+	
+	<br>
+	
+	<form action="index.html">
+	<button type="submit">Indietro</button>
+</form>
+
+
+</body>
+</html>

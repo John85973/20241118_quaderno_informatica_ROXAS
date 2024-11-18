@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<h2>SPIEGAZIONE ESERCIZIO 1:</h2>
+<p>L'esercizio mostra un form in cui puoi inserire informazioni come nome, cognome, codice fiscale e</p>
+<p>data di nascita. Quando premi "Submit", i dati vengono inviati a un file PHP che li riceve e mostra a</p>
+<p>schermo le informazioni inserite, dicendo se ogni campo e stato compilato o lasciato vuoto. Alla fine,</p>
+<p>c'e un pulsante per tornare alla pagina precedente.</p>
+
+<hr>
+
+<h2>MODULO DI ISCRIZIONE</h2>
+
+    <form action="php1.php" method="POST">
+		<label for="nome">NOME:</label><br>
+		<input type="text" name="nome"><br><br>
+		
+		<label for="cognome">COGNOME:</label><br>
+        <input type="text" name="cognome"><br><br>
+			
+        <label for="cf">CODICE FISCALE:</label><br>
+        <input type="text" name="cf"><br><br>
+
+        <label for="datadinascita">DATA DI NASCITA:</label><br>
+        <input type="text" name="datadinascita"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+	
+	<br>
+	
+	<form action="index.html">
+	<button type="submit">Indietro</button>
+	</form>
+	
+	
+		
+</body>
+</html>

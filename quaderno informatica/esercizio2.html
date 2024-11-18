@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>SPIEGAZIONE ESERCIZIO 2:</h2>
+<p>L'esercizio mostra un form di login in cui l'utente puo inserire un nome utente e una password.</p>
+<p>Quando premi "Invia", i dati vengono inviati a un file PHP che verifica se il nome utente e "Admin" e</p>
+<p>la password e "123". Se le credenziali sono corrette, mostra un messaggio di benvenuto; se sono</p>
+<p>sbagliate, avvisa che le credenziali non sono corrette. Alla fine, c'e un pulsante per tornare alla</p>
+<p>pagina precedente.</p>
+
+<hr>
+
+  <h3>Accesso a pagina riservata</h3>
+  
+  <form action="php2.php" method="post">
+    
+    <label for="username" ><b>Nome utente</b></label>
+    <input type="text" name="nomeutente"><br>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" name="password"><br>
+    
+    <input name="submit" type="submit" value="Invia">
+  
+  </form>
+  
+  <br>
+  
+  <form action="index.html">
+	<button type="submit">Indietro</button>
+</form><br>
+
+</body>
+</html>
